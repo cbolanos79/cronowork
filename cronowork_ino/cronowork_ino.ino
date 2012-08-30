@@ -1,20 +1,5 @@
 /*
-   Cronowork
-   
-   Cronómetro basado en arduino para control de tiempos en 
-   diferentes tareas de trabajo
-   
-   Histórico versiones
-   
-   0.1 Versión inicial con soporte de display LCD y pulsador para arrancar/parar contador
-   0.2 Añadido soporte para alimentación por pilas (muestra el nivel de carga asumiendo
-   que el portapilas usa un elevador de tensión de 5V y las pilas tienen un voltaje de 3.0-3.4V
-   a plena carga)
-   0.3 El color de retroiluminación del led cambia según el estado del cronómetro (tipo semáforo):
-       Verde: parado (disponible)
-       Rojo: arrancado (no molestar)
-       Amarillo: pausado (disponible pero no al 100%)
-       Añadido buzzer para dar aviso sonoro cuando se pulsa un botón
+   cronowork_ino.ino
 
    Copyright (c) 2012 Cristo Saulo Bolaños Trujillo cbolanos@gmail.com
    All rights reserved.
